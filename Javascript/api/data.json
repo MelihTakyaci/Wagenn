@@ -1,0 +1,74 @@
+[
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "10.0",
+    "standbykw": "8.0",
+    "primekva": "9.0",
+    "primekw": "7.0",
+    "hz": 50
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "12.0",
+    "standbykw": "10.0",
+    "primekva": "11.0",
+    "primekw": "9.0",
+    "hz": "50"
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "15.0",
+    "standbykw": "12.0",
+    "primekva": "14.0",
+    "primekw": "11.0",
+    "hz": "50"
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "17.5",
+    "standbykw": "14.0",
+    "primekva": "16.0",
+    "primekw": "13.0",
+    "hz": "50"
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "20.0",
+    "standbykw": "16.0",
+    "primekva": "18.0",
+    "primekw": "15.0",
+    "hz": "50"
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "25.0",
+    "standbykw": "20.0",
+    "primekva": "23.0",
+    "primekw": "18.0",
+    "hz": "50"
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "31.0",
+    "standbykw": "25.0",
+    "primekva": "28.0",
+    "primekw": "23.0",
+    "hz": "50"
+  },
+  {
+    "brand": "DiamondDiesel",
+    "standbykva": "45.0",
+    "standbykw": "36.0",
+    "primekva": "41.0",
+    "primekw": "33.0",
+    "hz": "50"
+  },
+  {
+    "brand": "Perkins",
+    "standbykva": "45.0",
+    "standbykw": "36.0",
+    "primekva": "41.0",
+    "primekw": "33.0",
+    "hz": "50 Quka"
+  }
+]

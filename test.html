@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Integration</title>
+</head>
+<body>
+
+<div class="list-mob" id="engineList"></div>
+
+<script>
+// Fetch data from the URL
+fetch('https://www.vagenn.com/Javascript/api/data.json')
+    .then(response => response.json())
+    .then(data => {
+        // Iterate through the data and create HTML elements
+        const engineListContainer = document.getElementById('engineList');
+
+        data.forEach(engine => {
+            const engineItem = document.createElement('div');
+            engineItem.className = 'item';
+
+            engineItem.innerHTML = `
+                <div class="row">
+                    <div class="col">Engine:</div>
+                    <div class="col">${engine.brand}</div>
+                </div>
+                <div class="row">
+                    <div class="col">StandBy:</div>
+                    <div class="col">${engine.standbykva} ${engine.standbykw}</div>
+                </div>
+                <div class="row">
+                    <div class="col">Prime:</div>
+                    <div class="col">${engine.primekva} ${engine.primekw}</div>
+                </div>
+                <div class="row">
+                    <div class="col">HZ:</div>
+                    <div class="col">${engine.HZ}</div>
+                </div>
+            `;
+
+            engineListContainer.appendChild(engineItem);
+        });
+    })
+    .catch(error => console.error('Error fetching data:', error));
+</script>
+
+</body>
+</html>

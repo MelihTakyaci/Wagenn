@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/" rel="preconnect"/><link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin="anonymous"/>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vagenn</title>
+        <link rel="icon" href="./images/vagenn.png">
+        <link rel="stylesheet" href="./getcontact.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="nav-i">
+            <div class="logo"><a href="./index.html"><img loading="lazy"src="./images/vagenn.png"></a></div>
+        <div class="menu">
+            <a href="./aboutus.html">About Us</a>
+            <a href="./services.html">Services</a>
+        </div>
+        <a href="./getcontact.html" class="get_contact_nav">
+            <p class="mobile"><i class="fa-regular fa-message"></i></p>
+            <p><span class="dot"></span>Get Contact</p>
+        </a>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="base_con">
+            <div class="banner_block">
+                <div class="banner_ex">
+                    <div class="ex-1">
+                        <i class="fa-solid fa-location-dot" style="color: #f6f7f9; margin-right: 10px;"></i>
+                        Contact us
+                    </div>
+                    <h1 class="ex-2">
+                        Contact with us
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="base_sec">
+            <div class="or Introduction" id="bilgiler">
+                <h2>Fill form or Contact us on:</h2>
+                <a href="mailto:vagenn@hotmail.com" style="color: #000;"><div class="option1">E-Mail: <p>vagenn@hotmail.com</p></div></a>
+                <div class="option2">Phone: <p>+383 44 222 509</p></div>
+                <div class="option3">2nd Phone: <p>+383 44 192 793</p></div>
+                <div class="option4">Fax: <p>029 225 222</p></div>
+            </div>
+            <form id="wf-form-Contact" name="wf-form-Contact" data-name="Contact" method="get" class="contact-form send_mail Introduction" data-wf-page-id="6460aa9aee128df08971e741" data-wf-element-id="e083816f-bae2-0538-8d7d-059d1fd9c821">
+            <!-- <form class="send_mail"id="send_mail" 
+            onsubmit="sendMail()"
+            > -->
+            <!-- onsubmit="sendMail(); reset(); return false;" -->
+                <h2 id="send_mail" >Send us E-Mail</h2>
+                <div class="form">
+                    <div class="st">
+                        <input type="text" id="name" data-name="Name" name="Name" placeholder="Your Name Surname" required="">
+                        <input type="email" placeholder="Your E-Mail" id="email" data-name="Email" name="Email" required="">
+                    </div>
+                    <textarea placeholder="Your Mail" id="message" data-name="Message" name="Message"required=""></textarea>
+                </div>
+                <input type="submit" value="Submit" data-wait="Please wait..." class="Submit" >
+                <button  class="Submit" onclick="sendMessage(event)" id="w-node-e083816f-bae2-0538-8d7d-059d1fd9c835-8971e741">Send</button>
+            </form>
+            <div style="display: none;" id="sucsessful">
+                <h>Your submission has been received!</h1>
+                <svg width="auto" height="auto" viewbox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" style="max-width: 75%; align-items:center;">
+                    <path fill="#21C55D" d="M177.8 98.5C179.257 100.039 180.044 102.093 179.988 104.212C179.931 106.331 179.037 108.34 177.5 109.8L118.9 165.8C117.385 167.225 115.38 168.013 113.3 168C111.251 168.008 109.279 167.219 107.8 165.8L78.5 137.8C77.6874 137.091 77.0264 136.225 76.557 135.254C76.0876 134.283 75.8193 133.227 75.7683 132.15C75.7174 131.073 75.8847 129.996 76.2604 128.985C76.6361 127.974 77.2123 127.05 77.9544 126.267C78.6965 125.484 79.5892 124.86 80.5788 124.431C81.5684 124.002 82.6344 123.778 83.7129 123.772C84.7914 123.766 85.86 123.978 86.8545 124.395C87.849 124.812 88.7489 125.426 89.5 126.2L113.3 148.9L166.5 98.2C168.039 96.743 170.093 95.9563 172.212 96.0125C174.331 96.0688 176.34 96.9634 177.8 98.5ZM232 128C232 148.569 225.901 168.677 214.473 185.779C203.045 202.882 186.803 216.212 167.799 224.083C148.796 231.955 127.885 234.015 107.711 230.002C87.5366 225.989 69.0056 216.084 54.4609 201.539C39.9163 186.994 30.0112 168.463 25.9984 148.289C21.9855 128.115 24.0451 107.204 31.9166 88.2009C39.7881 69.1974 53.118 52.9548 70.2207 41.5272C87.3235 30.0995 107.431 24 128 24C155.566 24.0529 181.988 35.0269 201.481 54.5193C220.973 74.0116 231.947 100.434 232 128ZM216 128C216 110.595 210.839 93.5813 201.169 79.1098C191.5 64.6383 177.756 53.3591 161.676 46.6986C145.596 40.0381 127.902 38.2954 110.832 41.6909C93.7618 45.0864 78.0817 53.4676 65.7747 65.7746C53.4676 78.0816 45.0864 93.7617 41.6909 110.832C38.2954 127.902 40.0381 145.596 46.6986 161.676C53.3592 177.756 64.6383 191.5 79.1099 201.169C93.5814 210.839 110.595 216 128 216C151.331 215.974 173.699 206.694 190.196 190.196C206.694 173.699 215.974 151.331 216 128Z" fill="currentColor"></path>
+                  </svg>
+            </div>
+        </div>
+    </div>
+    <div class="location">
+        <div class="location_base">
+            <div class="base_base">
+                <div class="header">
+                    <h1 class="Introduction">Location</h1>
+                </div>
+                <div class="location_cart">
+                    <div class="info_cart Introduction">
+                        <h4>Prizren Office</h4>
+                        <div class="detail"><i class="fa-solid fa-location-dot"></i> XK, Flamuri, Prizren 20000</div>
+                        <div class="detail"><i class="fa-solid fa-phone"></i>+383 49 222 509</div>
+                        <div class="detail"><i class="fa-solid fa-fax"></i>029 225 222</div>
+                        <div class="detail"><i class="fa-solid fa-envelope"></i>vagenn@hotmail.com</div>
+                    </div>
+                    <div class="map_cart Introduction">
+                        <h4>Location on Map</h4>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d310.5060667924824!2d20.7379693149128!3d42.23478341848126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13539594c25505ff%3A0x1fed0d9e0e6b6113!2sVagenn%20Generator!5e0!3m2!1sen!2sus!4v1690998320393!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="base_footer">
+            <div class="footer_bar">
+                <a href="aboutus.html">About Us</a>
+                <a href="./getcontact.html">Get Contact</a>
+                <a href="/">Services</a>
+            </div>
+            <div class="copyright">
+                <p class="c">© N.T.SH Vagenn 2023</p>
+                <p class="contact_footer">
+                    <button onclick="scrollToElement('send_mail')">
+                        <a>Contact with us:</a>
+                    </button>
+                     +383 49 222 509 <br> +383 44 192 793 <br> 029 225222
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript">
+    function sendMessage(event){
+        event.preventDefault();
+        (function(){
+            emailjs.init("CwYeRPRHo3tj-_pKx");
+        })();
+        var serviceID = "service_iasx6ms";
+        var templateID = "template_hp7y0ms";
+
+        var Params = {
+            name : document.getElementById('name').value,
+            mail: document.getElementById('email').value,
+            message: document.getElementById('message').value
+        }
+        emailjs.send(serviceID , templateID , Params).then(res => {
+            document.getElementById('name').value = "";
+            document.getElementById('email').value = "";
+            document.getElementById('message').value = "";
+            // alert("hayirli olson baba");
+            document.getElementById('wf-form-Contact').style = "display: none;" 
+            document.getElementById('sucsessful').style = "display: block;" 
+            
+            const or = document.getElementById('bilgiler');
+            const orw = or.clientWidth; // Genişliği almak için clientWidth kullanın
+            const orh = or.clientHeight; // Yüksekliği almak için clientHeight kullanın
+            console.log(orw);
+            console.log(orh);
+            
+            const suc = document.getElementById('sucsessful');
+            suc.style.width = orw + 'px'; // Genişlik
+            suc.style.height = orh + 'px'; // Yükseklik
+
+        }).catch();
+    }
+    </script>
+<script src="./Javascript/scroll.js"></script>
+<script src="./Javascript/scrollElement.js"></script>
+<script src="./Javascript/api/test.js"></script>
+<script src="./Javascript/equal.js"></script>
+
+</html>

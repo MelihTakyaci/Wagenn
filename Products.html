@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="./ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]  }});</script>
+        <meta charset="UTF-8">
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Services</title>
+        <link rel="icon" href="./images/vagenn.png">
+        <link rel="stylesheet" href="./Products.css">
+</head>
+<body>
+    <header>
+        <div class="nav-i">
+            <div class="logo"><a href="./index.html"><img loading="lazy"src="./images/vagenn.png"></a></div>
+        <div class="menu">
+            <a href="./aboutus.html">About Us</a>
+            <a href="#">Services</a>
+        </div>
+            <div class="get_contact_nav">
+                <a><span class="dot"></span>Get Contact</a>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="base_con">
+            <div class="banner_block">
+                <div class="banner_ex">
+                    <div class="ex-1">
+                        <i class="fa-solid fa-location-dot" style="color: #f6f7f9; margin-right: 10px;"></i>
+                        Services
+                    </div>
+                    <h1 class="ex-2">
+                        Products List
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section1">
+        <div class="base_sec">
+            <div class="menu-shop">
+                <h2>Generator Store</h2>
+                <div class="brands">
+                    <div class="brand brand1" onclick="changeBrand('Perkins')"><a>Perkins</a></div>
+                    <div class="brand brand2" onclick="changeBrand('DiamondDiesel')"><a>Diamond Diesel</a></div>
+                    <div class="brand brand3"><a>Volvo</a></div>
+                    <div class="brand brand4"><a>Doosan</a></div>
+                    <div class="brand brand5"><a>Alpha-R</a></div>
+                    <div class="brand brand6"><a>John Deere</a></div>
+                </div>
+            </div>
+            <!-- Item Lists -->
+            <div class="list" id="listservice">
+                <!-- Row1 header-col -->
+                <div class="row-header">
+                    <div class="h-col">Engine</div>
+                    <div class="h-col">
+                        StandBy
+                        <div class="row">
+                            <div class="p-col">KVA</div>
+                            <div class="p-col">KW</div>
+                        </div>
+                    </div>
+                    <div class="h-col">
+                        Prime
+                        <div class="row">
+                            <div class="p-col">KVA</div>
+                            <div class="p-col">KW</div>
+                        </div>
+                    </div>
+                    <div class="h-col">HZ</div>
+                </div>
+                <!-- Row 2 (info-col 1)-->
+                <div class="row">
+                    <div class="i-col">DIAMOND DIESEL</div>
+                    <div class="i-col">
+                        <div class="row-p">
+                            <p class="mobileHeader">StandBy kva / kw</p>
+                            <div class="p-col">10.0</div>
+                            <div class="p-col">8.0</div>
+                        </div>
+                    </div>
+                    <div class="i-col">
+                        <div class="row-p">
+                            <p class="mobileHeader">Prime kva / kw</p>
+                            <div class="p-col">9.0</div>
+                            <div class="p-col">7.0</div>
+                        </div>
+                    </div>
+                    <div class="h-col">
+                        <p class="mobileHeader">Hertz</p> 
+                        50.0
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work_together">
+        <div class="base_together">
+            <div class="block">
+                <h1>Partner with us</h1>
+                <div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ad porro adipisci!
+                </div>
+                <div class="links">
+                <a href="./getcontact.html">Contact with us</a>
+                <button onclick="scrollToElement('listservice')">
+                    Our Services
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="base_footer">
+            <div class="footer_bar">
+                <a href="./index.html">Home</a>
+                <a href="#">Get Contact</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="copyright">
+                <p class="c">© N.T.SH Vagenn 2023</p><p class="contact_footer"><a href="./getcontact.html">Contact with us:</a> +383 49 222 509 <br> +383 44 192 793 <br> 029 225222</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./Javascript/api/data.js"></script>
+<script src="./Javascript/scroll.js"></script>
+<script src="./Javascript/scrollElement.js"></script>
+<script src="./Javascript/api/fetch/FetchProduct.js"></script>
+</html>

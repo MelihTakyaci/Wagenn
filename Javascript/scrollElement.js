@@ -10,3 +10,4 @@
       });
     }
   }
+  scrollToElement(a);
