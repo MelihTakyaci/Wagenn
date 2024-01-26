@@ -1,7 +1,7 @@
 footer{
     text-align: center;
     padding-top: 0;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     width: 100%;
 }
 .base_footer{
@@ -25,7 +25,7 @@ footer{
     font-family: GeneralsansBold;
 }
 .footer_bar a{
-    color: #8596a6;
+    color: #000;
     font-size: 23px;
     margin-bottom: 15px;
 }
@@ -36,16 +36,19 @@ footer{
     justify-content: space-between;
     align-items: center;
     display: flex;
-    color: #687a77;
+    color: #000;
     padding-top: 25px;
-    border-top: 1px solid #687a77;
+    border-top: 1px solid #000;
 }
 .copyright .c{
     font-size: 20px;
 }
 .copyright .contact_footer , .copyright a{
     text-align: end;
-    color: #687a77;
+    color: #000;
+}
+.copyright button a{
+    font-size: 18px;
 }
 .copyright button{
     background-color: transparent;
@@ -62,7 +65,71 @@ footer{
     opacity: 1;
     transform: scale(1.0);
 }
-@media screen and (max-width: 548px) {
+/* Social Media Buttons */
+.banner .socialMedia{
+    width: 25px;
+    position: fixed;
+    z-index: 1000;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    bottom: 0;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0); */
+    background-color: #21C55D;
+    border-radius: .25rem;
+}
+.socialMedia .icons{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    background-size: cover;
+    font-size: 15px;
+}
+.icons i{
+    color: #fff;
+}
+.socialMedia p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    writing-mode: vertical-rl;
+    letter-spacing: .75px;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    color: #fff;
+}
+.copyright .socialMedia{
+    display: flex;
+    flex-direction: column;
+}
+.copyright .socialMedia h3{
+    margin-bottom: .75rem;
+}
+.socialMedia .footerIcons{
+    display: flex;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    border-radius: .625rem;
+    /* background-color: rgb(0,0,0,.10);
+    border: rgb(0, 0, 0, .5) 1px solid; */
+}
+.copyright .icon{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 25px;
+    color: #000;
+}
+@media screen and (max-width: 768px) {
+    .banner .socialMedia{
+        display: none;
+    }
+}
+@media screen and (max-width: 668px) {
     .footer_bar{
         width: 100%;
         column-gap: normal;
