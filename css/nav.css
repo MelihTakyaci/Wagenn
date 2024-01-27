@@ -88,7 +88,7 @@ header .menu a{
         padding-right: 10px;
     }
     header .logo{
-        width: 130px;
+        width: 120px;
     }
     header .menu{
         width: 100%;
@@ -97,8 +97,9 @@ header .menu a{
         justify-content: center;
     }
     header .menu a{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        font-size: 15px;
+        padding-left: .25rem;
+        padding-right: .25rem;
     }
     .get_contact_nav {
         border-radius: 100%;

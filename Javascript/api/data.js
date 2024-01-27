@@ -1,4 +1,4 @@
-var currentBrand = "DiamondDiesel"
+var currentBrand = "DIAMOND DIESEL"
 function changeBrand(a){
     currentBrand = a;
     console.log(a);
