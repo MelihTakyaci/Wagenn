@@ -242,7 +242,9 @@ header .menu a{
 .brand{
     color:  rgba(250, 250, 250, .9);
     background-color: rgb(33,197,93);
-    border-radius: 70px;
+    border-radius: .625rem;
+    outline: none;
+    border: 0;
     margin-bottom: 10px;
     width: calc(16.5% - 20px);
     min-width: 120px;
