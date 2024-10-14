@@ -311,13 +311,12 @@ body{
     line-height: 1em;
 }
 .top_side{
-    height: 133px;
     grid-row-gap: 10px;
     background-color: #fff;
     border-radius: 10px;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 27px;
+    margin-bottom: 10px;
     padding: 10px;
     display: flex;
     position: relative;
@@ -617,9 +616,8 @@ body{
         max-width: 110%;
     }
     .top_side{
-        height: 100px;
         margin-bottom: 5px;
-        padding: 7px;
+        padding: 5px;
     }
     .sec_column{
         flex-direction: column;
